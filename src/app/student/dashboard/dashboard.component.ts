@@ -3,7 +3,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { AddStudentComponent } from 'src/app/components/add-student/add-student.component';
 import { EditStudentComponent } from 'src/app/components/edit-student/edit-student.component';
-import { Student } from 'src/app/student';
+import { Student } from '../../student';
 import { StudentService } from 'src/app/services/student.service';
 import Swal from 'sweetalert2';
 
