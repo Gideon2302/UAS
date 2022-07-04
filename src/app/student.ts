@@ -1,8 +1,7 @@
 export interface Student {
-    _id: string;
-    FirstName: string;
-    LastName: string;
-    Email: string;
-    Address: string;
-    Phone: string;
+    username: string;
+    email: string;
+    fullName: string;
+    password: string;
+    address: string;
 }
